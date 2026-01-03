@@ -21,7 +21,7 @@ st.date_input("Input Date")
 st.write("Displaying Data")
 st.write(range(10))
 # read  data  
-df = pd.read_csv(r"\Users\muhir\OneDrive\Desktop\app\dashboard\data\customer_churn_dataset.csv")
+df = pd.read_csv(r"\data\customer_churn_dataset.csv")
 st.dataframe(df.head(5))
 st.table(df.head(5))
 # display  graph
